@@ -1,0 +1,8 @@
+CROSS_HOST="i686-pc-linux-gnu"
+ORIG_PN="libsigc++"
+inherit cross gtkmm
+
+DESCRIPTION="C++ typesafe callback library"
+HOMEPAGE="http://libsigc.sourceforge.net/"
+
+CYGCONF_ARGS="--disable-documentation"
